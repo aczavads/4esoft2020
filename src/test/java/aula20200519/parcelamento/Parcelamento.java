@@ -10,7 +10,6 @@ public class Parcelamento {
 
 	public static List<Parcela> parcelar(BigDecimal valorParaParcelar, Integer númeroDeParcelas,
 			Boolean diferençaNaPrimeiraParcela, BigDecimal valorMínimoDaParcela) {
-		/*
 		List<Parcela> parcelas = new ArrayList<>();
 		
 		BigDecimal valorDaParcela = valorParaParcelar.divide(new BigDecimal(númeroDeParcelas), 2, RoundingMode.HALF_DOWN);
@@ -24,11 +23,12 @@ public class Parcelamento {
 			}
 		}
 		return parcelas;
-		*/
-		return Arrays.asList(
-				new Parcela(1, new BigDecimal("33.34")),
-				new Parcela(1, new BigDecimal("33.33")),
-				new Parcela(1, new BigDecimal("33.33")));
 	}
+	/*
+	return Arrays.asList(
+			new Parcela(1, new BigDecimal("33.34")),
+			new Parcela(1, new BigDecimal("33.33")),
+			new Parcela(1, new BigDecimal("33.33")));
+	*/
 
 }
