@@ -25,7 +25,6 @@ public class EchoServer {
 				Socket connection = socket.accept();
 				
 				handleClientCommunication(connection);
-				
 			}
 		} catch (Exception e) {
 			e.printStackTrace();
