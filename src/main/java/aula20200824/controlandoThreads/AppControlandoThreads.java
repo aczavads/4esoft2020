@@ -1,4 +1,4 @@
-package ayka20200824.controlandoThreads;
+package aula20200824.controlandoThreads;
 
 import java.awt.Insets;
 import java.awt.event.ActionEvent;

@@ -1,4 +1,4 @@
-package ayka20200824.concorrênciaComThreads;
+package aula20200824.concorrênciaComThreads;
 
 import java.util.ArrayList;
 import java.util.Collections;

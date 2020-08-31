@@ -1,4 +1,4 @@
-package ayka20200824.controlandoThreads;
+package aula20200824.controlandoThreads;
 
 import javax.swing.Box;
 import javax.swing.BoxLayout;
