@@ -17,7 +17,7 @@ public class Insumo implements Serializable  {
     public Insumo(String descricao) {
         logger.info("Criando um insumo...");
 
-        logger.info("Insumo criado!")
+        logger.info("Insumo criado!");
     }
 
 
