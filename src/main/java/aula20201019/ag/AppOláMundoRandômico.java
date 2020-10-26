@@ -16,7 +16,7 @@ public class AppOláMundoRandômico {
         Random r = new Random();        
         while (true) {
             final char[] caracteres = new char[objetivo.length()];
-            for (int i = 0; i < 11; i++) {
+            for (int i = 0; i < objetivo.length(); i++) {
                 final int caracterSorteado = Math.abs(r.nextInt())%53;
                 caracteres[i] = alfabeto.charAt(caracterSorteado);
             }
